@@ -38,14 +38,7 @@ def get_dep_data():
 
 spend_df = get_dep_data()
 
-@st.cache_resource
-def get_department_options(spend_df):
-    departments = spend_df['Department'].unique()
-    department_list = departments.tolist()
-    department_list = sorted(department_list) 
-    return department_list  
 
-department_list = get_department_options(spend_df)
 
 #st.title()
 def file_type_detection(file):
