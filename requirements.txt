@@ -3,7 +3,6 @@ pandas
 streamlit
 matplotlib
 requests
-json
 pickle
 filetype
 xgboost
