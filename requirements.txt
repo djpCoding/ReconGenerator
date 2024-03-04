@@ -1,10 +1,13 @@
 numpy
 pandas
 streamlit
-pydeck
-folium
+matplotlib
+requests
+json
+pickle
+filetype
+xgboost
 datetime
-pytz
 plotly
 geopy
-geopandas
+scikit-learn
