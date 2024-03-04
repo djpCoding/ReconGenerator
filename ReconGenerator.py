@@ -31,13 +31,6 @@ recon_clf = get_recon_base_model()
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-@st.cache_data
-def get_dep_data():
-    spend_df = pd.read_csv('departmentspend.csv')
-    return spend_df
-
-spend_df = get_dep_data()
-
 
 
 #st.title()
