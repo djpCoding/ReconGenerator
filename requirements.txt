@@ -3,7 +3,6 @@ pandas
 streamlit
 matplotlib
 requests
-pickle
 filetype
 xgboost
 datetime
